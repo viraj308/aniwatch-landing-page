@@ -1,0 +1,36 @@
+.navbar {
+    background-color: #755029;
+    color: white;
+    padding: 1em 0;
+    position: absolute;
+    left: 0;
+    right: 0;
+
+}
+.logo-text {
+    font-weight: 700;
+    font-size: 1.3rem;
+    color: white;
+    }
+
+.nav-link {
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+}
+.nav-items {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-items-left {
+    width: 140px;
+    display: flex;
+    justify-content: space-between;
+}
+
+@media (min-width: 500px) {
+    .nav-items-left {
+        width: 160px;
+    }
+}

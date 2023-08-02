@@ -1,0 +1,14 @@
+.button {
+    background-color: #9A5F4F;
+    color: white;
+    text-decoration: none;
+    font-size: 1.3rem;
+    font-weight: 600;
+    padding: 0.4em 1em;
+    border-radius: 15px;
+    border: none;
+}
+.btn-secondary {
+    background-color: white;
+    color: #9A5F4F;
+}
