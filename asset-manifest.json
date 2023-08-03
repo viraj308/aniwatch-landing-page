@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/aniwatch-landing-page/static/css/main.b1403bbf.css",
-    "main.js": "/aniwatch-landing-page/static/js/main.1a76db4e.js",
+    "main.js": "/aniwatch-landing-page/static/js/main.e5f22149.js",
     "static/media/Makima_feeding_Denji_udon.webp": "/aniwatch-landing-page/static/media/Makima_feeding_Denji_udon.0d1fd933e9e1f71e42d3.webp",
     "index.html": "/aniwatch-landing-page/index.html",
     "main.b1403bbf.css.map": "/aniwatch-landing-page/static/css/main.b1403bbf.css.map",
-    "main.1a76db4e.js.map": "/aniwatch-landing-page/static/js/main.1a76db4e.js.map"
+    "main.e5f22149.js.map": "/aniwatch-landing-page/static/js/main.e5f22149.js.map"
   },
   "entrypoints": [
     "static/css/main.b1403bbf.css",
-    "static/js/main.1a76db4e.js"
+    "static/js/main.e5f22149.js"
   ]
 }
