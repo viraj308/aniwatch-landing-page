@@ -7,7 +7,7 @@ export default function Pricing() {
       <div className="container">
         <div className="pricing-heading">FREE</div>
         <div className="pricing-para">
-          No need of a card to register and sign-up, out content is totally free
+          No need of a card to register and sign-up, out content is totally free.
         </div>
         <Button buttonStyle="btn-secondary">Explore</Button>
       </div>
