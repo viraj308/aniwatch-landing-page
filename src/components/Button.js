@@ -7,7 +7,11 @@ export default function Button({ children, buttonStyle }) {
     ? buttonStyle
     : STYLES[0];
   return (
-    <a href="#" className={`button ${buttonStyle}`}>
+    <a
+      href="https://aniwatch.to/"
+      target="_blank"
+      className={`button ${buttonStyle}`}
+    >
       {children}
     </a>
   );

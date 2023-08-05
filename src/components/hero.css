@@ -12,14 +12,14 @@
 }
 .hero-heading {
     font-size: clamp(3.1rem, 1.4361rem + 3.8033vw, 6rem);
-    line-height: 1em;
-    margin-bottom: 0.2em;
+    line-height: 1.05em;
+    margin-bottom: 0.15em;
     min-width: 320px;
 
 }
 
 .hero-para {
-    font-size: clamp(0.95rem, 0.8923rem + 0.2564vw, 1.2rem);
+    font-size: clamp(0.95rem, 0.8923rem + 0.2564vw, 1.1rem);
     width: 90%;
     font-weight: 500;
     min-width: 270px;
@@ -34,7 +34,7 @@
     .hero-para {
         width: 80%;
         max-width: 651px;
-        margin: 0 auto 1.2em auto;
+        margin: 0 auto 1.5em auto;
     }
 }
  
