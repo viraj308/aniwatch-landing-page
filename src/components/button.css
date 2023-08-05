@@ -2,13 +2,29 @@
     background-color: #9A5F4F;
     color: white;
     text-decoration: none;
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     font-weight: 600;
     padding: 0.4em 1em;
     border-radius: 15px;
-    border: none;
+    border: 2px solid transparent
 }
 .btn-secondary {
     background-color: white;
     color: #9A5F4F;
+    padding: 0.3em 0.8em;
+}
+.btn-primary:hover, .btn-primary:active {
+    background-color: white;
+    color: #9A5F4F;
+}
+.btn-secondary:hover, .btn-secondary:active {
+    border: 2px solid white;
+    background-color: #9A5F4F;
+    color: white;
+}
+
+@media (min-width: 673px) {
+    .button {
+        font-size: clamp(1.2rem, 1.0921rem + 0.2566vw, 1.4rem);
+    }
 }

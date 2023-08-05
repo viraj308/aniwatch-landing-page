@@ -10,27 +10,32 @@
     align-items: center;
     color: white;
 }
-.hero-text {
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
 .hero-heading {
     font-size: clamp(3.1rem, 1.4361rem + 3.8033vw, 6rem);
     line-height: 1em;
     margin-bottom: 0.2em;
+    min-width: 320px;
 
 }
+
 .hero-para {
     font-size: clamp(0.95rem, 0.8923rem + 0.2564vw, 1.2rem);
+    width: 90%;
     font-weight: 500;
+    min-width: 270px;
+    max-width: 400px;
     margin-bottom: 1.2em;
 }
 
-
-@media (min-width: 855px) {
+@media (min-width: 673px) {
+    .hero-content {
+        text-align: center;
+    }
     .hero-para {
-        max-width: 720px;
+        width: 80%;
+        max-width: 651px;
+        margin: 0 auto 1.2em auto;
     }
 }
+ 
+

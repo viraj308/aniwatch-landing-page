@@ -2,35 +2,48 @@
     background-color: #755029;
     color: white;
     padding: 1em 0;
+    font-size: 1rem;
     position: absolute;
     left: 0;
     right: 0;
 
-}
-.logo-text {
-    font-weight: 700;
-    font-size: 1.3rem;
-    color: white;
-    }
-
-.nav-link {
-    text-decoration: none;
-    color: white;
-    font-weight: 500;
 }
 .nav-items {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-.nav-items-left {
-    width: 140px;
+
+.logo-text {
+    font-weight: 700;
+    font-size: 1.5rem;
+    color: white;
+    }
+
+
+.nav-items-right {
+    width: 145px;
     display: flex;
     justify-content: space-between;
 }
 
-@media (min-width: 500px) {
-    .nav-items-left {
+.nav-link {
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    padding: 0.3em 0.5em;
+    border-radius: 7px;
+}
+.nav-link:hover, .nav-link:active {
+    background-color: white;
+    color: #755029;
+}
+
+@media (min-width: 450px) {
+    .nav-items-right {
         width: 160px;
+    }
+    .nav-items-right {
+        gap: 15px;
     }
 }
